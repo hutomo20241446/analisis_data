@@ -17,7 +17,8 @@ membuat file requirements.txt dari vscode
 pipenv run pip freeze > requirements.txt
 
 
-##Run streamlit app
+## Run streamlit app
+streamlit run dashboard.py
 
 
 streamlit run dashboard.py
