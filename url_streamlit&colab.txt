@@ -1,2 +1,2 @@
 https://colab.research.google.com/drive/1wkGidDgOzismCNWGrW9M5TVXVHq3U2BK?usp=sharing
-https://submission-data-analysis-dicoding.streamlit.app/
+https://coding-camp-2025-submission.streamlit.app/
