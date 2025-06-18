@@ -345,11 +345,11 @@ mkdir analisis_data (membuat direktori analisis_data untuk menyimpan data_dashbo
 conda create --name analisis-data-env python  (membuat environment untuk menjalankan aplikasi streamlit di dalam komputer lokal)
 
 ### Membuat requirements.txt
-cd analisis_data (berpindah ke direktori analisis_data)
-pip freeze > requirements.txt (membuat file requirements.txt)
+cd analisis_data (berpindah ke direktori analisis_data)    
+pip freeze > requirements.txt (membuat file requirements.txt)    
 
 ### Install semua dipendensi di analisis-data-env
-conda activate analisis-data-env (aktivasi environment untuk install semua dependensi)
+conda activate analisis-data-env (aktivasi environment untuk install semua dependensi)    
 pip install -r requirements.txt
 
 ### Run streamlit app
@@ -409,7 +409,7 @@ Tambahkan repository sebagai remote:
 git remote add origin git@github.com:username/analisis_data.git
 ```
 
-### **6. Tambahkan, Commit, dan Push File**
+### **7. Tambahkan, Commit, dan Push File**
 Tambahkan semua file:
 ```sh
 git add .
@@ -424,7 +424,7 @@ Push ke repository GitHub menggunakan SSH:
 git push -u origin main
 ```
 
-### **4. Deploy ke Streamlit Cloud**
+### **8. Deploy ke Streamlit Cloud**
 1. Buka [Streamlit Cloud](https://share.streamlit.io/).
 2. Login dengan akun GitHub dan pilih **create app**.
 3. Klik **"Deploy now"** pada bagian  **Deploy a public app from GitHub**.
