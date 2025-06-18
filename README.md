@@ -340,7 +340,7 @@ Berikut adalah penjelasan terkait Feature Engineering yang dilakukan pada tahap-
 Dashboard hasil analisis ini di deploy menggunakan aplikasi streamlit. Berikut adalah langkah-langkah menjalankan aplikasi streamlit di komputer lokal:
 
 ### Setup Environment - Shell
-mkdir analisis_data (direktori untuk menyimpan data_dashboard, dashboard.py, dan requirements.txt)
+mkdir analisis_data (membuat direktori analisis_data untuk menyimpan data_dashboard, dashboard.py, dan requirements.txt)
 
 conda create --name analisis-data-env  (membuat environment untuk menjalankan aplikasi streamlit di dalam komputer lokal)
 
