@@ -409,7 +409,7 @@ Tambahkan repository sebagai remote:
 git remote add origin git@github.com:username/analisis_data.git
 ```
 
-### **7. Tambahkan, Commit, dan Push File**
+### **6. Tambahkan, Commit, dan Push File**
 Tambahkan semua file:
 ```sh
 git add .
@@ -424,7 +424,7 @@ Push ke repository GitHub menggunakan SSH:
 git push -u origin main
 ```
 
-### **8. Deploy ke Streamlit Cloud**
+### **7. Deploy ke Streamlit Cloud**
 1. Buka [Streamlit Cloud](https://share.streamlit.io/).
 2. Login dengan akun GitHub dan pilih **create app**.
 3. Klik **"Deploy now"** pada bagian  **Deploy a public app from GitHub**.
@@ -433,7 +433,7 @@ git push -u origin main
 5. Klik **"Deploy"**, tunggu hingga aplikasi berhasil dibangun.
 
 
-### **6. Bagikan Link Aplikasi**
+### **8. Bagikan Link Aplikasi**
 Setelah sukses, Streamlit akan memberikan URL aplikasi yang bisa langsung diakses dan dibagikan. https://coding-camp-2025-submission.streamlit.app/
 
 
