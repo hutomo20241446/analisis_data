@@ -342,7 +342,7 @@ Dashboard hasil analisis ini di deploy menggunakan aplikasi streamlit. Berikut a
 ### Setup Environment - Shell
 mkdir analisis_data (membuat direktori analisis_data untuk menyimpan data_dashboard, dashboard.py, dan requirements.txt)
 
-conda create --name analisis-data-env  (membuat environment untuk menjalankan aplikasi streamlit di dalam komputer lokal)
+conda create --name analisis-data-env python  (membuat environment untuk menjalankan aplikasi streamlit di dalam komputer lokal)
 
 ### Membuat requirements.txt
 cd analisis_data (berpindah ke direktori analisis_data)
