@@ -356,7 +356,7 @@ pip install -r requirements.txt
 streamlit run dashboard.py
 
 ## 7. Dashboard Interaktif Online
-Setelah pengecekan aplikasi dan semuanya OK, aplikasi bisa dideploy ke streamlit cloud via github. Berikut langkah-langkah untuk push aplikasi dari komputer lokal ke github:      
+Setelah pengecekan aplikasi di komputer lokal dan semuanya OK, aplikasi bisa dideploy ke streamlit cloud via github. Berikut langkah-langkah untuk push aplikasi dari komputer lokal ke github dan dilanjutkan deployment ke streamlit cloud:      
 
 ### **1. Login akun GitHub**
 Buka Git Bash dari direktori analisis-data. Kemudian jalankan command di bawah ini:     
