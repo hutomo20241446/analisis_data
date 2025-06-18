@@ -393,12 +393,13 @@ ssh -T git@github.com
 Jika berhasil, akan muncul pesan:  
 `Hi username! You've successfully authenticated, but GitHub does not provide shell access.`
 
-### **4. Buat Repository Baru di GitHub via API**
-Di Git Bash, jalankan:
-```sh
-curl -u "username" https://api.github.com/user/repos -d '{"name":"nama-repository"}'
-```
-Ganti `"username"` dengan username GitHub dan `"nama-repository"` untuk proyek ini **analisis_data**.
+### **4. Buat Repository Baru di GitHub via situs web GitHub**
+
+1. Buka [GitHub](https://github.com/) dan login dengan akun GitHub.
+2. Klik ikon **"+"** di pojok kanan atas, lalu pilih **"New repository"**.
+3. Masukkan nama repositori **analisis_data**, pilih visibilitas **Public**.
+4. Jika diperlukan, tambahkan **.gitignore** dan **lisensi** sesuai proyek.
+5. Klik **"Create repository"**, lalu tunggu hingga repositori berhasil dibuat.
 
 ### **5. Inisialisasi Repository dan Hubungkan ke GitHub**
 ```sh
